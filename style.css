@@ -88,6 +88,7 @@ border-bottom-right-radius: 5px;
 }
 
 .waitinglist {
+    min-height: 50vh;
     margin-top: 2vh;
     padding: 0.8em;
     display: block;
