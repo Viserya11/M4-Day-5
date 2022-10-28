@@ -12,11 +12,10 @@ let addNames = function () {
     inputName.value = "";
   };
 
-  
   let resetNames = function () {
-    let content = waitinglist.querySelectorAll("p");
-    content.innerHTML = "";
-    
+    let member = waitinglist.querySelector("p");
+    member.innerText = "";
+    let hr = waitinglist.querySelector("hr")
+    hr.innerHTML = ""
   }
-  
   

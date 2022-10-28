@@ -5,26 +5,40 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+.flex {
+    display: flex;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    width: 42vw;
+    margin: 0 auto;
+}
 
 h1 {
     margin: 1vw 5vw;
     text-transform: uppercase;
     font-weight:lighter;
     font-size: 3em;
-    margin-left: 10vw;
+    margin: 0 auto;
     color: #0b0c0d;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 .container {
+    
     display: flex;
     flex-direction: row;
-    width: 45vw;
-    margin-left: 10vw;
+    width: 40vw;
+    
 }
 
 .form-group {
     display: flex;
-    width: 40vw;
+    
+    width: 45vw;
    flex-direction: column;
    margin-left: 0.5vw;
    font-size: 1em;
@@ -39,17 +53,17 @@ h1 {
     height: 4vh;
     width: 3vw;
     border-top-right-radius: 5px;
-border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 .assign {
-    margin-left: 10vw;
-    margin-top: 2vh;
+    
+    margin-top: 3vh;
     margin-right: 1vw;
     color: aliceblue;
     background-color:#697cf7;
     border: 0px;
-    width: 27vw;
+    width: 32vw;
     height: 4vh;
     border-radius: 5px;
 }
@@ -60,11 +74,11 @@ border-bottom-right-radius: 5px;
     background-color: rgb(141, 48, 62);
     border: 0px;
     height: 4vh;
+    width: 15vh;
     border-radius: 5px;
 }
 
 .plusminus {
-    margin-left: 0;
     color: aliceblue;
     background-color:#697cf7;
     border: 0px;
@@ -94,19 +108,24 @@ border-bottom-right-radius: 5px;
     display: block;
     border-radius: 5px;
     box-shadow: inset 1px 13px 48px -20px rgba(185, 185, 185, 0.75);
-    width: 30vw;
-    margin-left: 10vw;
+    margin-left: 0 auto;
 }
 
 hr {
     color: rgb(210, 210, 210);
 }
 
+
+.right {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
 .doneteamcontainer {
   display: flex;
-  width: 47vw;
-  margin-left: 45vw;
-  margin-top: 0vh;
+  width: 45vw;
+  margin-left: 0;
   align-items: center;
   
 }
@@ -126,10 +145,11 @@ hr {
 }
 
 .teamnamecontainer {
+    margin-top: 20%;
     display: flex;
   width: 47vw;
-  margin-left: 45vw;
-  margin-top: -60vh;
+  margin-left: 0vw;
+  
   align-items: center;
 }
 
