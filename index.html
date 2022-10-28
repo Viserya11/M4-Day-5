@@ -5,9 +5,91 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Team Generator</title>
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+</style>
 </head>
 <body>
+    
+<h1>Team Generator</h1>
+
+<div class="container">
+    <div class="form-group">
+    <label for="teams">Add member</label>
+    <div>
+    <input class="field" placeholder="Name" type="text" name="teams">
+    <button class="addbtn">Add</button>
+</div>
+    </div>
+
+    <div class="form-group">
+<label for="numofteams">Teams</label>
+<div>
+    <button class="plusminus">-</button>
+<input class="numfield" type="number" name="numofteams" value="1">
+<button class="plusminus">+</button>
+</div>
+    </div>
+
+</div>
+
+<div>
+<div class="waitinglist">
+    <p>name</p>
+    <hr>
+    <p>name</p>
+    <hr>
+    <p>name</p>
+    <hr>
+    <p>name</p>
+    <hr>
+    <p>name</p>
+    <hr>
+    <p>name</p>
+  </div>
+  <div class="buttons">
+    <button class="assign">Assign Member</button>
+    <button class="reset">Reset</button>
+  </div>
+</div>
+</div>
+
+<div class="teamnamecontainer">
+<h2 class="teamname">Team 1</h2>
+<h2 class="teamname">Team 1</h2>
+<h2 class="teamname">Team 1</h2>
+</div>
+
+<div class="doneteamcontainer">
+<div class="doneteam">
+
+  <div class="teammembers">
+    <p>name</p>
+    <p>name</p>
+</div>
+</div>
+<div class="doneteam">
+    <div class="teammembers">
+      <p>name</p>
+      <p>name</p>
+    </div>
+  </div>
+  <div class="doneteam">
+    <div class="teammembers">
+      <p>name</p>
+      <p>name</p>
+    </div>
+  </div>
+</div>
+
+<style>
+    input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+</style>
     <script src="script.js"></script>
 </body>
 </html>
