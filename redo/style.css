@@ -5,6 +5,14 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+.flex {
+    display: flex;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+}
 
 h1 {
     margin: 1vw 5vw;
@@ -39,7 +47,7 @@ h1 {
     height: 4vh;
     width: 3vw;
     border-top-right-radius: 5px;
-border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 .assign {
@@ -102,13 +110,15 @@ hr {
     color: rgb(210, 210, 210);
 }
 
+
 .right {
-    
+    display: flex;
+    flex-direction: column;
 }
 
 .doneteamcontainer {
   display: flex;
-  width: 47vw;
+  width: 45vw;
   margin-left: 0;
   margin-top: 0vh;
   align-items: center;
@@ -132,7 +142,7 @@ hr {
 .teamnamecontainer {
     display: flex;
   width: 47vw;
-  margin-left: 45vw;
+  margin-left: 0vw;
   
   align-items: center;
 }
