@@ -14,7 +14,7 @@ let addNames = function () {
 
   
   let resetNames = function () {
-    let content = waitinglist.querySelector("p");
+    let content = waitinglist.querySelectorAll("p");
     content.innerHTML = "";
     
   }

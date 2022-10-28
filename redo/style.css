@@ -12,6 +12,8 @@ body {
 .left {
     display: flex;
     flex-direction: column;
+    width: 42vw;
+    margin: 0 auto;
 }
 
 h1 {
@@ -19,20 +21,20 @@ h1 {
     text-transform: uppercase;
     font-weight:lighter;
     font-size: 3em;
-    margin-left: 10vw;
+    margin: 0 auto;
     color: #0b0c0d;
 }
 
 .container {
     display: flex;
     flex-direction: row;
-    width: 45vw;
-    margin-left: 10vw;
+    width: 40vw;
+    
 }
 
 .form-group {
     display: flex;
-    width: 40vw;
+    width: 45vw;
    flex-direction: column;
    margin-left: 0.5vw;
    font-size: 1em;
@@ -51,13 +53,13 @@ h1 {
 }
 
 .assign {
-    margin-left: 10vw;
-    margin-top: 2vh;
+    
+    margin-top: 3vh;
     margin-right: 1vw;
     color: aliceblue;
     background-color:#697cf7;
     border: 0px;
-    width: 27vw;
+    width: 32vw;
     height: 4vh;
     border-radius: 5px;
 }
@@ -68,6 +70,7 @@ h1 {
     background-color: rgb(141, 48, 62);
     border: 0px;
     height: 4vh;
+    width: 5vh;
     border-radius: 5px;
 }
 
@@ -102,8 +105,7 @@ h1 {
     display: block;
     border-radius: 5px;
     box-shadow: inset 1px 13px 48px -20px rgba(185, 185, 185, 0.75);
-    width: 30vw;
-    margin-left: 10vw;
+    margin-left: 0 auto;
 }
 
 hr {
@@ -114,6 +116,7 @@ hr {
 .right {
     display: flex;
     flex-direction: column;
+    margin: 0 auto;
 }
 
 .doneteamcontainer {
