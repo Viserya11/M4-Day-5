@@ -15,7 +15,5 @@ let addNames = function () {
   let resetNames = function () {
     let member = waitinglist.querySelector("p");
     member.innerText = "";
-    let hr = waitinglist.querySelector("hr")
-    hr.innerHTML = ""
   }
   
