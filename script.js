@@ -13,7 +13,7 @@ let addNames = function () {
   };
 
   let resetNames = function () {
-    let member = waitinglist.querySelector("p");
-    member.innerText = "";
+    let content = waitinglist.querySelector("p");
+    content.innerHTML = "";
   }
   
