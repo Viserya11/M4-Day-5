@@ -23,6 +23,7 @@ let addNames = function () {
   let resetNames = function () {
     waitinglist.innerHTML = "";
     teamcards.innerHTML = "";
+    teamnumber.value = 1;
   }
 // increases the value of the number input with the previously declared variable
   let increaseTeams = () => {
