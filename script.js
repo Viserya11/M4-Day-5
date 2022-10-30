@@ -7,6 +7,7 @@ let teamnumber = document.querySelector(".numfield")
 let increaseWith = 1;
 let decreaseWith = 1;
 
+//selects the text input, assigning a new name and hr to the container 
 let addNames = function () {
     if (inputName.value !== "") {
         
@@ -18,17 +19,18 @@ let addNames = function () {
     inputName.value = "";
   };
 
+  //removes the assigned values
   let resetNames = function () {
     waitinglist.innerHTML = "";
     teamcards.innerHTML = "";
   }
-
+// increases the value of the number input with the previously declared variable
   let increaseTeams = () => {
      value = parseInt(teamnumber.value);
      value += increaseWith;
      teamnumber.value = value;
 }
-  
+  // decreases the value of the number input with the previously declared variable
 let decreaseTeams = () => {
   value = parseInt(teamnumber.value);
   value -= decreaseWith;
