@@ -33,10 +33,13 @@ let addNames = function () {
      value = parseInt(teamnumber.value);
      value += increaseWith;
      teamnumber.value = value;
-     let teamcards = teamscontainer.appendChild(document.createElement("div"))
+     let teamnames = teamscontainer.appendChild(document.createElement("h2"))
+    teamnames.innerHTML = "Team +", teamnumber.value;
+     let teamcards = teamnames.appendChild(document.createElement("div"))
      teamcards.className = "doneteam";
-    let teamnames = teamscontainer.appendChild(document.createElement("h2"))
-    teamnames.innerHTML = "Team +"
+     let names = teamcards.appendChild(document.createElement("p"))
+    names.innerHTML = "names"
+    names.className = "teamname"
 
 
 }

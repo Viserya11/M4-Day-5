@@ -124,7 +124,8 @@ hr {
 
 .doneteamcontainer {
   display: flex;
-  width: 45vw;
+  flex-wrap: wrap;
+  max-width: 48vw;
   margin-left: 0;
   align-items: center;
   
@@ -138,7 +139,7 @@ hr {
     display: block;
     border-radius: 10px;
     box-shadow: 4px 7px 32px -2px rgba(181,181,181,0.91);
-    width: 20vw;
+    width: 11vw;
     height: 30vh;
     margin-left: 2vw; 
     
@@ -147,7 +148,7 @@ hr {
 .teamnamecontainer {
     margin-top: 20%;
     display: flex;
-  width: 47vw;
+  width: 48vw;
   margin-left: 0vw;
   
   align-items: center;
@@ -157,5 +158,7 @@ hr {
     flex-basis: 33.3%;
     margin-left: 2vw;
     margin-bottom: 1vh;
+    font-size: 1em;
+    font-weight: 400;
 }
 
