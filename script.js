@@ -22,24 +22,20 @@ let addNames = function () {
     inputName.value = "";
   };
 
-  //removes the assigned values
-  let resetNames = function () {
-    waitinglist.innerHTML = "";
-    teamcards.innerHTML = "";
-    teamnumber.value = 1;
-  }
+ 
 // increases the value of the number input with the previously declared variable
   let increaseTeams = () => {
      value = parseInt(teamnumber.value);
      value += increaseWith;
      teamnumber.value = value;
      let teamnames = teamscontainer.appendChild(document.createElement("h2"))
-    teamnames.innerHTML = "Team +", teamnumber.value;
+    teamnames.innerHTML = "Team +"; teamnumber.value;
      let teamcards = teamnames.appendChild(document.createElement("div"))
      teamcards.className = "doneteam";
      let names = teamcards.appendChild(document.createElement("p"))
     names.innerHTML = "names"
     names.className = "teamname"
+    names.appendChild(document.createElement("hr"))
 
 
 }
@@ -48,7 +44,13 @@ let decreaseTeams = () => {
   value = parseInt(teamnumber.value);
   value -= decreaseWith;
   teamnumber.value = value;
-  teamscontainer.removeLastChild()
+  teamscontainer.lastChild.remove();
   
 }
   
+ //removes the assigned values
+ let resetNames = function () {
+  waitinglist.innerHTML = "";
+  teamscontainer.innerHTML = "";
+  teamnumber.value = 1;
+}
